@@ -1,0 +1,28 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appButton{
+    width: 25%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+.appButton:hover{
+    background: #2459e9c9;
+    transition: 0.3s;
+}
+.appButton:active{
+    background: blue;
+    transition: 2ms;
+}
+.courseList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
