@@ -1,2 +1,2 @@
-# addCourse
+# AddCourse
 React State Project
